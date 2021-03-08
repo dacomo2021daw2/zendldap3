@@ -34,6 +34,6 @@
 	if ($entrada){
 		Attribute::setAttribute($entrada,$atribut,$nou_contingut);
 		$ldap->update($dn, $entrada);
-		$missatge="Atribut modificat"; 
+		echo "Atribut modificat"; 
 	} else echo "<b>Aquesta entrada no existeix</b><br><br>";	
 ?>
